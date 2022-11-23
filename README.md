@@ -13,6 +13,7 @@ My fork of dwm-6.4
 7. pertag - layouts can be changed per tag
 8. swallow - window swallowing 
 9. xresources - dwm parameters such as colors, fonts and gaps can be modfified with xresources file
+10. xrdb - to reload colors without restarting dwm (super + shift + r)
 
 # installation
 ``` bash
