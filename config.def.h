@@ -7,17 +7,17 @@
 /* appearance */
 static Gap default_gap        = {.isgap = 1, .realgap = 0, .gappx = 0};
 static const int swallowfloating    = 0;        /* 1 means swallow floating windows by default */
-static const int user_bh            = 10;        /* 2 is the default spacing around the bar's font */
+static const int user_bh            = 6;        /* 2 is the default spacing around the bar's font */
 static unsigned int borderpx  = 1;        /* border pixel of windows */
 static unsigned int snap      = 32;       /* snap pixel */
 static int showbar            = 1;        /* 0 means no bar */
-static int topbar             = 1;        /* 0 means bottom bar */
+static int topbar             = 0;        /* 0 means bottom bar */
 static char font[]            = "monospace:size=10";
 static char dmenufont[]       = "monospace:size=10";
 static const char *fonts[]    = {
 	font,
-	"Noto Color Emoji:pixelsize=14:antialias=true:autohint=true",
-	"Font Awesome 6 Free Solid:size=12:style:Solid"
+	"Noto Color Emoji:pixelsize=10:antialias=true:autohint=true",
+	"Font Awesome 6 Free Solid:size=8:style:Solid"
 };
 static char normbgcolor[]           = "#222222";
 static char normbordercolor[]       = "#444444";
